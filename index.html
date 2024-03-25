@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Internet Speed Test | Fast.com</title>
+</head>
+
+<body id="body">
+    <header>
+        <div class="logo">
+            <p class="fast">FAST</p>
+        </div>
+        <div class="right">
+            <select class="select_language">
+                <option selected value="en">English (US)</option>
+                <option value="uz">Uzbek (UZ)</option>
+                <option value="ru">Russkiy (RU)</option>
+            </select>
+            <select class="select_mode">
+                <option id="light" selected value="oq">LIGHT</option>
+                <option id="dark" value="qora">DARK</option>
+            </select>
+        </div>
+    </header>
+    <h1 id="h1">Your Internet speed is</h1>
+    <main>
+        <div class="count">
+            91
+        </div>
+        <div class="count_controller">
+            <div class="top">Mbps</div>
+            <div id="startSpinner" class="spinner">
+                <div class="spinner_load">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#d2d2d2"
+                        class="bi bi-pause-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5" />
+                    </svg>
+                </div>
+                <div class="spinner_ok">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-clockwise svg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                      </svg>
+                </div>
+                <div class="spinner_stop">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#d2d2d2" class="bi bi-arrow-clockwise svg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                      </svg>
+                </div>
+                <div class="spinner_loading"></div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <button class="info">
+            Show more info
+        </button>
+        <ul class="list">
+            <li class="item1">?</li>
+            <li class="item2">f</li>
+            <li class="item3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#fff" class="bi bi-twitter"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                </svg>
+            </li>
+        </ul>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
+
+<!--  -->
